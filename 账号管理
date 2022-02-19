@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T18:01:41.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.5.6" etag="hwXLgJqM_SdVOjxCsVeJ" type="github"><diagram id="A9PjoTWzSMA28LvClrDh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-19T07:35:04.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="1EAS-b6LkGta6fWumYjP" version="16.5.6" type="github">
+  <diagram id="A9PjoTWzSMA28LvClrDh" name="Page-1">
+    <mxGraphModel dx="1298" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jNud4_3pGNKRtQBGOdVA-2" target="jNud4_3pGNKRtQBGOdVA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jNud4_3pGNKRtQBGOdVA-4" target="jNud4_3pGNKRtQBGOdVA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-4" value="用户登陆" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="39" y="130" width="750" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-5" value="账号+密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jNud4_3pGNKRtQBGOdVA-4">
+          <mxGeometry x="14" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-6" value="手机+验证码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jNud4_3pGNKRtQBGOdVA-4">
+          <mxGeometry x="215" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-7" value="邮箱+认证链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jNud4_3pGNKRtQBGOdVA-4">
+          <mxGeometry x="415" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-8" value="第三方授权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jNud4_3pGNKRtQBGOdVA-4">
+          <mxGeometry x="615" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jNud4_3pGNKRtQBGOdVA-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jNud4_3pGNKRtQBGOdVA-16" target="jNud4_3pGNKRtQBGOdVA-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-16" value="是否存在绑定userid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="320" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-20" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="420" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-22" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jNud4_3pGNKRtQBGOdVA-23" target="jNud4_3pGNKRtQBGOdVA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-23" value="系统唯一userid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jNud4_3pGNKRtQBGOdVA-24" target="jNud4_3pGNKRtQBGOdVA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-24" value="填写关键信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-27" value="绑定/生成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-29" value="获取登陆的id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jNud4_3pGNKRtQBGOdVA-30" target="jNud4_3pGNKRtQBGOdVA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-30" value="资质认证" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="39" y="630" width="751" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-31" value="身份证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jNud4_3pGNKRtQBGOdVA-30">
+          <mxGeometry x="14" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-32" value="企业资质" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jNud4_3pGNKRtQBGOdVA-30">
+          <mxGeometry x="215" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-33" value="人脸识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jNud4_3pGNKRtQBGOdVA-30">
+          <mxGeometry x="411" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jNud4_3pGNKRtQBGOdVA-35" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
